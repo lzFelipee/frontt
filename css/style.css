@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #A8D5BA;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #1d6d3e, #4caf50);
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header .navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+}
+header .navbar .navbar-nav .nav-item {
+  margin-right: 15px;
+}
+header .navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+header .navbar .navbar-nav .nav-link:hover {
+  color: #ffeb3b;
+}
+
+.hero .col-md-6 {
+  padding: 0 15px;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tipos {
+  padding-top: 40px;
+}
+#tipos h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+#tipos .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+#tipos .card-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#tipos .card-body {
+  padding-top: 15px;
+}
+
+#contato {
+  background-color: #3c7e57;
+  padding: 40px 0;
+  border: 2px solid rgb(41, 146, 41);
+  background-color: #3c7e57;
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#contato h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+#contato .form-control {
+  border-radius: 0.375rem;
+}
+#contato .btn-success {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+}
+#contato .btn-success:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+/*# sourceMappingURL=style.css.map */

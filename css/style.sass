@@ -1,0 +1,104 @@
+// Variáveis para as cores
+$primary-color: #A8D5BA  // Verde Pastel
+$header-bg-color: #1d6d3e  // Verde Escuro para o Header
+$highlight-color: #ffeb3b  // Cor amarela para hover no menu
+$contact-bg-color: #3c7e57  // Cor de fundo da seção de contato
+
+// Resetando margens e padding
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body 
+  font-family: 'Arial', sans-serif
+  background-color: $primary-color  // Cor de fundo verde pastel
+  color: #333
+
+// Estilos para o header
+header 
+  background: linear-gradient(135deg, $header-bg-color, #4caf50)  // Gradiente do header
+  padding: 10px 0
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)  // Sombra sutil no header
+
+  .navbar
+    .navbar-brand
+      font-weight: bold
+      font-size: 2rem
+      color: #fff
+
+    .navbar-nav
+      .nav-item
+        margin-right: 15px
+
+      .nav-link
+        color: #fff
+        font-size: 1.1rem
+        transition: color 0.3s ease
+
+        &:hover
+          color: $highlight-color  // Cor de destaque para hover
+
+// Estilos da seção hero
+.hero
+  .col-md-6
+    padding: 0 15px
+
+  img
+    max-width: 100%
+    height: auto
+
+// Estilos dos Cards de Tipos de Energia
+#tipos
+  padding-top: 40px
+
+  h2
+    margin-bottom: 40px
+    font-size: 2rem
+    font-weight: 700
+    text-align: center
+
+  .card-img-top
+    height: 200px
+    object-fit: cover
+    margin-bottom: 20px
+
+  .card-title
+    text-align: center
+    margin-bottom: 20px
+
+  .card-body
+    padding-top: 15px
+
+// Estilo personalizado para a seção de contato
+#contato
+  background-color: $contact-bg-color
+  padding: 40px 0
+
+  h2
+    color: #fff
+    margin-bottom: 20px
+
+  .form-control
+    border-radius: 0.375rem
+
+  .btn-success
+    background-color: #4CAF50
+    border-color: #4CAF50
+    color: white
+    padding: 8px 20px
+    font-size: 16px
+
+    &:hover
+      background-color: #45a049
+      border-color: #45a049
+
+  // Estilo de borda e padding para a seção de contato
+  border: 2px solid rgb(41, 146, 41)
+  background-color: $contact-bg-color
+  padding: 30px
+  max-width: 800px
+  margin: 0 auto
+  border-radius: 8px
+  margin-bottom: 30px
+  margin-top: 30px
